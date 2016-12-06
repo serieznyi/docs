@@ -11,5 +11,9 @@
 * Git
     * [Несколько github deploy ключей на одной машине](docs/git/few_github_deploy_keys.md) 
     * [Отправка изменений в несколько remote](docs/git/push_in_few_remote.md)
+* Nginx
+    * [Советы](docs/nginx/main.md)
+* Ansile 
+    * [Показывать diff зашифрованных файлов в git](docs/ansible/vault_git_diff.md)
 * Javascript
     * [@Перехватываем изменения в div ](https://gist.github.com/serieznyi/258e1d1ad0b7da4ae143398aed9167d7)
