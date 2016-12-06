@@ -28,23 +28,15 @@ url = "ssh://git@repo2.github.com/serieznyi/repo2.git"
 ```
 
 Host repo1.github.com
-
-HostName github.com
-
-User git
-
-IdentityFile /home/serieznyi/.ssh/repo1.id_rsa
-
-IdentitiesOnly yes
+    HostName github.com
+    User git
+    IdentityFile /home/serieznyi/.ssh/repo1.id_rsa
+    IdentitiesOnly yes
 
 Host repo2.github.com
-
-HostName github.com
-
-User git
-
-IdentityFile /home/serieznyi/.ssh/repo2.id_rsa
-
-IdentitiesOnly yes
+    HostName github.com
+    User git
+    IdentityFile /home/serieznyi/.ssh/repo2.id_rsa
+    IdentitiesOnly yes
 
 ```
