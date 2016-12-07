@@ -9,7 +9,7 @@
     * [Очистка /boot](docs/linux/clear_boot.md)
     * [Монтирование sshfs не под собой](docs/linux/mount_sshfs_not_as_you.md)
 * Git
-    * [Несколько github deploy ключей на одной машине](docs/git/few_github_deploy_keys.md) 
+    * [@Несколько github deploy ключей на одной машине](https://gist.github.com/serieznyi/1bd9c4214ab6810adff2405cd44ea915) 
     * [Отправка изменений в несколько remote](docs/git/push_in_few_remote.md)
 * Nginx
     * [Советы](docs/nginx/main.md)
