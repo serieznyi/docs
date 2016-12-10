@@ -6,16 +6,24 @@
 
 Узнаем версию ядра 
 
-`uname -r`
+```bash
+uname -r
+```
 
 Выводим список доступных ядер
 
-`sudo dpkg --list 'linux-image*'`
+```bash
+sudo dpkg --list 'linux-image*'
+```
 
 Удаляем не используемые
 
-`sudo apt-get remove linux-image-VERSION`
+```bash
+sudo apt-get remove linux-image-VERSION
+```
 
 Обновляем информацию в grub
 
-`sudo apt-get autoremove; sudo apt-get autoremove;`
+```bash
+sudo apt-get autoremove; sudo apt-get autoremove;
+```

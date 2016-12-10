@@ -1,6 +1,6 @@
 #Монтирование sshfs не под собой
 
-```
+```bash
 sudo su
 
 apt-get install sshfs

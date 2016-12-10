@@ -7,12 +7,14 @@
 Смотрим ROOT-PARTITION ("/dev/sda1")
 
 
-```sudo fdisk -l```
+```bash
+sudo fdisk -l
+```
 
 
 Монтируем все хостовые директории в Live OS
 
-```
+```bash
 sudo mount ROOT-PARTITION /mnt
 for i in /sys /proc /run /dev /dev/pts; do sudo mount --bind "$i" "/mnt$i"; done
 sudo cp /etc/resolv.conf /mnt/etc/
