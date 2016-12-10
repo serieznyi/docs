@@ -18,6 +18,8 @@
 * Резервные копии
     * [Советы](docs/backups/main.md)
 * Web-development
+    * CSS
+        * [Выключаем hover при прокрутке](docs/css/off_hover.md)
     * [Советы](docs/web/main.md)
 * Javascript
     * [@Перехватываем изменения в div ](https://gist.github.com/serieznyi/258e1d1ad0b7da4ae143398aed9167d7)
