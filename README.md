@@ -19,6 +19,7 @@
     - [Советы](docs/backups/main.md)
 * PHP
     - [Отдаем файлы эффективно с помощью PHP](docs/php/big_file_download.md)
+    - [Настройка XDebug в docker](docs/php/xdebug/in-docker.md)
 * Web-development
     - [Советы](docs/web/main.md)
     - CSS
