@@ -8,8 +8,9 @@
     - [Пробрасываем хостовые директории в Live CD](docs/linux/mount_linux_live_cd.md)
     - [Очистка /boot](docs/linux/clear_boot.md)
     - [Монтирование sshfs не под собой](docs/linux/mount_sshfs_not_as_you.md)
+    - [Автоматическое добавление SSH ключей](docs/linux/ssh_on_login.md)
 * Git
-    - [@Несколько github deploy ключей на одной машине](https://gist.github.com/serieznyi/1bd9c4214ab6810adff2405cd44ea915) 
+    - [Несколько github deploy ключей на одной машине](./docs/git/multiple-deploy-keys-multiple-private-repos-github-ssh-config.md) 
     - [Отправка изменений в несколько remote](docs/git/push_in_few_remote.md)
 * Nginx
     - [Советы](docs/nginx/main.md)
