@@ -12,6 +12,7 @@
 * Git
     - [Несколько github deploy ключей на одной машине](./docs/git/multiple-deploy-keys-multiple-private-repos-github-ssh-config.md) 
     - [Отправка изменений в несколько remote](docs/git/push_in_few_remote.md)
+    - [Не фиксируем изменния прав доступа](docs/git/permissions.md)
 * Nginx
     - [Советы](docs/nginx/main.md)
 * Ansile 
