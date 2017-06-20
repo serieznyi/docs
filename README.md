@@ -30,3 +30,7 @@
         * [@Перехватываем изменения в div ](https://gist.github.com/serieznyi/258e1d1ad0b7da4ae143398aed9167d7)
         * [@Очистка Selectize.js dropdown](https://gist.github.com/serieznyi/5c145501f45431ede7d1071fd51c4cf7)
         * [@Splitting a gulpfile into multiple files](http://macr.ae/article/splitting-gulpfile-multiple-files.html)
+* Полезные ссылки
+    - [@Семантическое версионирование](http://semver.org/lang/ru/)
+    - [@Ведите changelog](http://keepachangelog.com/ru/0.3.0/)
+    - [@Паттерны проектирования](https://refactoring.guru/ru/design-patterns/catalog)
