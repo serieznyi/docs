@@ -10,6 +10,7 @@
     - [Монтирование sshfs не под собой](docs/linux/mount_sshfs_not_as_you.md)
     - [Автоматическое добавление SSH ключей](docs/linux/ssh_on_login.md)
     - [Сброс кеша DNS (Ubuntu)](docs/linux/dns_cache_drop.md)
+    - [Утилиты](docs/linux/utils.md)
 * Git
     - [Несколько github deploy ключей на одной машине](./docs/git/multiple-deploy-keys-multiple-private-repos-github-ssh-config.md) 
     - [Отправка изменений в несколько remote](docs/git/push_in_few_remote.md)
