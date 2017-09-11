@@ -25,5 +25,5 @@ sudo apt-get remove linux-image-VERSION
 Обновляем информацию в grub
 
 ```bash
-sudo apt-get autoremove; sudo apt-get autoremove;
+sudo apt-get autoremove
 ```
