@@ -12,7 +12,7 @@
     - [Сброс кеша DNS (Ubuntu)](content/linux/dns_cache_drop.md)
     - [Утилиты](content/linux/utils.md)
 * Git
-    - [Несколько github deploy ключей на одной машине](./content/git/multiple-deploy-keys-multiple-private-repos-github-ssh-config.md) 
+    - [Несколько ssh deploy ключей на одной машине](./content/git/multiple-deploy-keys-multiple-private-repos-github-ssh-config.md) 
     - [Отправка изменений в несколько remote](content/git/push_in_few_remote.md)
     - [Не фиксируем изменния прав доступа](content/git/permissions.md)
 * Nginx
@@ -29,7 +29,7 @@
     - CSS
         * [Выключаем hover при прокрутке](content/css/off_hover.md)
     - Javascript
-        * [@Перехватываем изменения в div ](https://gist.github.com/serieznyi/258e1d1ad0b7da4ae143398aed9167d7)
+        * [Перехватываем изменения в div ](content/js/pick_div_change.md)
         * [@Очистка Selectize.js dropdown](https://gist.github.com/serieznyi/5c145501f45431ede7d1071fd51c4cf7)
         * [@Splitting a gulpfile into multiple files](http://macr.ae/article/splitting-gulpfile-multiple-files.html)
 * Полезные ссылки

@@ -16,13 +16,13 @@ uname -r
 sudo dpkg --list 'linux-image*'
 ```
 
-Удаляем не используемые
+Удаляем неиспользуемые ядра
 
 ```bash
-sudo apt-get remove linux-image-VERSION
+sudo apt-get remove linux-image-<VERSION>
 ```
 
-Обновляем информацию в grub
+Вызываем автоочистку
 
 ```bash
 sudo apt-get autoremove
