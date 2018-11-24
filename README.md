@@ -15,6 +15,7 @@
     - [Несколько ssh deploy ключей на одной машине](./content/git/multiple-deploy-keys-multiple-private-repos-github-ssh-config.md) 
     - [Отправка изменений в несколько remote](content/git/push_in_few_remote.md)
     - [Не фиксируем изменния прав доступа](content/git/permissions.md)
+    - [Глобальный .gitignore](content/git/global_gitignore.md)
 * Nginx
     - [Советы](content/nginx/main.md)
 * Ansile 
