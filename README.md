@@ -16,8 +16,6 @@
     - [Отправка изменений в несколько remote](content/git/push_in_few_remote.md)
     - [Не фиксируем изменния прав доступа](content/git/permissions.md)
     - [Глобальный .gitignore](content/git/global_gitignore.md)
-* Nginx
-    - [Советы](content/nginx/main.md)
 * Ansile 
     - [Показывать diff зашифрованных файлов в git](content/ansible/vault_git_diff.md)
 * Резервные копии
