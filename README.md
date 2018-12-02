@@ -26,7 +26,6 @@
     - [Отдаем файлы эффективно с помощью PHP](content/php/big_file_download.md)
     - [Настройка XDebug в docker](content/php/xdebug/in-docker.md)
 * Web-development
-    - [Советы](content/web/main.md)
     - CSS
         * [Выключаем hover при прокрутке](content/css/off_hover.md)
     - Javascript
