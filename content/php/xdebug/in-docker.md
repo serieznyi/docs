@@ -2,7 +2,9 @@
 
 1. Запускаем приложение в Develop окружении
 
-  `docker-compose up -d`
+  ```
+  docker-compose up -d
+  ```
 
 2. Настраиваем XDebug
 
