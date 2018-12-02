@@ -24,9 +24,8 @@
     - [Отдаем файлы эффективно с помощью PHP](content/php/big_file_download.md)
     - [Настройка XDebug в docker](content/php/xdebug/in-docker.md)
 * Web-development
-    - CSS
-        * [Выключаем hover при прокрутке](content/css/off_hover.md)
     - Javascript
+        * [Выключаем hover при прокрутке](content/css/off_hover.md)
         * [Перехватываем изменения в div ](content/js/pick_div_change.md)
         * [@Очистка Selectize.js dropdown](https://gist.github.com/serieznyi/5c145501f45431ede7d1071fd51c4cf7)
         * [@Splitting a gulpfile into multiple files](http://macr.ae/article/splitting-gulpfile-multiple-files.html)
