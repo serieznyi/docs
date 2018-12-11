@@ -4,7 +4,7 @@
 
 # Содержание
 
-* [Глосарий](content/glossary.md)
+* [Глосcарий](content/glossary.md)
 * Linux
     - [Пробрасываем хостовые директории в Live CD](content/linux/mount_linux_live_cd.md)
     - [Очистка /boot](content/linux/clear_boot.md)
