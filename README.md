@@ -34,3 +34,5 @@
     - [@Семантическое версионирование](http://semver.org/lang/ru/)
     - [@Ведите changelog](http://keepachangelog.com/ru/0.3.0/)
     - [@Паттерны проектирования](https://refactoring.guru/ru/design-patterns/catalog)
+* [DRAFT](DRAFT.md)
+
