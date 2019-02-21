@@ -13,3 +13,4 @@ P0f — это инструмент, который использует мас�
 # Любимый софт
  - https://snapcraft.io/redis-desktop-manager Менеджер REDIS
  - https://sdkman.io SDK Man
+ - https://github.com/astrada/google-drive-ocamlfuse
