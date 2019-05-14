@@ -16,7 +16,19 @@ ObjLongConsumer<T>    - void accept(T t, long value)
 
 
 Function<T, R>        - R apply(T t)
-// TODO
+IntFunction<T, R>     - R apply(int value)
+LongFunction<T, R>    - R apply(long value)
+DoubleFunction<T, R>  - R apply(double value)
+
+DoubleToIntFunction   - int applyAsInt(double value)
+DoubleToLongFunction  - long applyAsInt(double value)
+LongToDoubleFunction  - double applyAsDouble(long value)
+LongToIntFunction     - int applyAsInt(long value)
+IntToDoubleFunction   - double applyAsDouble(int value)
+IntToLongFunction     - long applyAsLong(int value)
+
+
+BiFunction<T,U,R>     - R apply(T t, U u)
 
 Supplier<T>           - T get()
 //TODO
