@@ -27,8 +27,15 @@ LongToIntFunction     - int applyAsInt(long value)
 IntToDoubleFunction   - double applyAsDouble(int value)
 IntToLongFunction     - long applyAsLong(int value)
 
+ToDoubleFunction<T>   - double applyAsDouble(T value)
+ToIntFunction<T>      - int applyAsInt(T value)
+ToLongFunction<T>     - long applyAsLong(T value)
 
 BiFunction<T,U,R>     - R apply(T t, U u)
+
+ToDoubleBiFunction<T,U> - double applyAsDouble(T t, U u)
+ToIntBiFunction<T,U>    - int applyAsInt(T t, U u) 
+ToLongBiFunction<T,U>   - long applyAsLong(T t, U u)
 
 Supplier<T>           - T get()
 //TODO
