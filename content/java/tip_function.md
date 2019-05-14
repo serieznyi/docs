@@ -6,28 +6,28 @@
 
 ```java
 
-Function<T, R>        - R apply(T t)
+Function<T, R>            - R apply(T t)
 
-IntFunction<T, R>     - R apply(int value)
-LongFunction<T, R>    - R apply(long value)
-DoubleFunction<T, R>  - R apply(double value)
+IntFunction<T, R>         - R apply(int value)
+LongFunction<T, R>        - R apply(long value)
+DoubleFunction<T, R>      - R apply(double value)
 
-IntToDoubleFunction   - double applyAsDouble(int value)
-IntToLongFunction     - long applyAsLong(int value)
-LongToDoubleFunction  - double applyAsDouble(long value)
-LongToIntFunction     - int applyAsInt(long value)
-DoubleToIntFunction   - int applyAsInt(double value)
-DoubleToLongFunction  - long applyAsInt(double value)
+IntToDoubleFunction       - double applyAsDouble(int value)
+IntToLongFunction         - long applyAsLong(int value)
+LongToDoubleFunction      - double applyAsDouble(long value)
+LongToIntFunction         - int applyAsInt(long value)
+DoubleToIntFunction       - int applyAsInt(double value)
+DoubleToLongFunction      - long applyAsInt(double value)
 
-ToDoubleFunction<T>   - double applyAsDouble(T value)
-ToIntFunction<T>      - int applyAsInt(T value)
-ToLongFunction<T>     - long applyAsLong(T value)
+ToDoubleFunction<T>       - double applyAsDouble(T value)
+ToIntFunction<T>          - int applyAsInt(T value)
+ToLongFunction<T>         - long applyAsLong(T value)
 
-BiFunction<T,U,R>     - R apply(T t, U u)
+BiFunction<T,U,R>         - R apply(T t, U u)
 
-ToDoubleBiFunction<T,U> - double applyAsDouble(T t, U u)
-ToIntBiFunction<T,U>    - int applyAsInt(T t, U u) 
-ToLongBiFunction<T,U>   - long applyAsLong(T t, U u)
+ToDoubleBiFunction<T,U>   - double applyAsDouble(T t, U u)
+ToIntBiFunction<T,U>      - int applyAsInt(T t, U u) 
+ToLongBiFunction<T,U>     - long applyAsLong(T t, U u)
 
 ```
 
