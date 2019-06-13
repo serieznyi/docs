@@ -6,6 +6,7 @@
 
 * [Изучить](content/learn/material.md)
 * [Глосcарий](content/glossary.md)
+* [Патерны проектирования](./patterns/index.md)
 * Linux
     - [Пробрасываем хостовые директории в Live CD](content/linux/mount_linux_live_cd.md)
     - [Очистка /boot](content/linux/clear_boot.md)
