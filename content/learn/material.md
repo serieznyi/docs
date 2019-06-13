@@ -13,10 +13,14 @@
 ## Технологии 
 
 ### Level 1
-- JPA 2.1 Specification https://download.oracle.com/otn-pub/jcp/persistence-2_1-fr-eval-spec/JavaPersistence.pdf
-- Java SE 8 Specification - https://docs.oracle.com/javase/specs/jls/se8/jls8.pdf
-- Hibernate ORM 5.4 Quick Start - https://docs.jboss.org/hibernate/orm/5.4/quickstart/html_single/
-- Hibernate ORM 5.4 Userguide - https://docs.jboss.org/hibernate/orm/5.4/userguide/html_single/Hibernate_User_Guide.html
+- Java
+ - JPA 2.1 Specification https://download.oracle.com/otn-pub/jcp/persistence-2_1-fr-eval-spec/JavaPersistence.pdf
+ - Java SE 8 Specification - https://docs.oracle.com/javase/specs/jls/se8/jls8.pdf
+ - Servlet Specification https://download.oracle.com/otn-pub/jcp/servlet-4-final-eval-spec/servlet-4_0_FINAL.pdf
+ - JDBC 4.3 Specification https://download.oracle.com/otn-pub/jcp/jdbc-4_3-mrel3-eval-spec/jdbc4.3-fr-spec.pdf
+- Hibernate
+ - Hibernate ORM 5.4 Quick Start - https://docs.jboss.org/hibernate/orm/5.4/quickstart/html_single/
+ - Hibernate ORM 5.4 Userguide - https://docs.jboss.org/hibernate/orm/5.4/userguide/html_single/Hibernate_User_Guide.html
 - JUnit 5 - https://junit.org/junit5/docs/current/user-guide/
 - SOA https://habr.com/ru/company/mailru/blog/342526/
 - Spring 
