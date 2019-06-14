@@ -1,4 +1,4 @@
-# Паттерны проектирования
+# Head First Design Patterns: A Brain-Friendly Guide
 
 * [Singleton (Одиночка)](singleton.md)
 * [Observer (Наблюдатель)](observer.md)
