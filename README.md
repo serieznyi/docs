@@ -8,7 +8,7 @@
 * [Глосcарий](content/glossary.md)
 * Конспекты
     * [Head First Design Patterns: A Brain-Friendly Guide](content/synopsis/head_first_degign_patterns/readme.md)
-    * [Java The Complete Reference: 9 Edition](content/synopsis/java_the_complete_reference_9_edition/readme.md)
+    * [Java 8 The Complete Reference: 9 Edition](content/synopsis/java_the_complete_reference_9_edition/readme.md)
 * Linux
     - [Пробрасываем хостовые директории в Live CD](content/linux/mount_linux_live_cd.md)
     - [Очистка /boot](content/linux/clear_boot.md)
