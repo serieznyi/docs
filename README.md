@@ -4,6 +4,7 @@
 
 # Содержание
 
+* [Принципы программирования](content/principes.md)
 * [Изучить](content/learn/material.md)
 * [Глосcарий](content/glossary.md)
 * Конспекты
