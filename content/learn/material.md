@@ -1,5 +1,7 @@
 # Материалы для изучения
 
+## Java
+
  - **[DONE, ~02.2019]** Herbert Schildt - Java: A Beginner's Guide - https://isbnsearch.org/isbn/9781259589317
  - Herbert Schildt - Java: The Complete Reference - https://isbnsearch.org/isbn/9781260440232
  - Head First Design Patterns: A Brain-Friendly Guide - https://isbnsearch.org/isbn/9780596007126
@@ -12,9 +14,6 @@
  - Clean Code: A Handbook of Agile Software Craftsmanship -  Robert C. Martin
  - Code Complete: A Practical Handbook of Software Construction - 	Steve McConnell 
  
-## Технологии 
-
-- Java
  - JPA 2.1 Specification https://download.oracle.com/otn-pub/jcp/persistence-2_1-fr-eval-spec/JavaPersistence.pdf
  - Java SE 8 Specification - https://docs.oracle.com/javase/specs/jls/se8/jls8.pdf
  - Servlet Specification https://download.oracle.com/otn-pub/jcp/servlet-4-final-eval-spec/servlet-4_0_FINAL.pdf
@@ -40,6 +39,12 @@
  - Spock - http://spockframework.org/spock/docs/1.3/index.html
  - PowerMochito - http://powermock.github.io/#documents
 
-
+## Linux
+ - Автор: Майкл Лукас Название: «FreeBSD. Подробное руководство» 
+ - Авторы: Эви Немет, Гарт Снайдер, Трент Р. Хейн, Бэн Уэйли
+Название: «Unix и Linux. Руководство системного администратора»
+ - Автор: Michael W. Lucas Название: «Absolute OpenBSD»
+ - Авторы: Брайан У. Керниган, Роб Пайк Название: «Unix. Программное окружение»
+ - Авторы: Jerry Peek, Shelley Powers, Tim O'Reilly, Mike Loukides Название: «Unix Power Tools»
 
 
