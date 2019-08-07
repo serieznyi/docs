@@ -11,10 +11,6 @@
  - Object Thinking (Developer Reference) - David West
  - Clean Code: A Handbook of Agile Software Craftsmanship -  Robert C. Martin
  - Code Complete: A Practical Handbook of Software Construction - 	Steve McConnell 
- - Elegant Objects Vol 1 - Yegor Bugayenko
- - Elegant Objects Vol 2 - Yegor Bugayenko
- - Code Ahead (Volume 1) - Yegor Bugayenko
- - 256 Bloghacks - Yegor Bugayenko
  
 ## Технологии 
 
