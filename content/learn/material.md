@@ -47,4 +47,7 @@
  - Авторы: Брайан У. Керниган, Роб Пайк Название: «Unix. Программное окружение»
  - Авторы: Jerry Peek, Shelley Powers, Tim O'Reilly, Mike Loukides Название: «Unix Power Tools»
 
+## Other
+ - Building Microservices Designing Fine-Grained Systems By Sam Newman 
+ - Domain-Driven Design: Tackling Complexity in the Heart of Software 1st Edition by Eric Evans 
 
