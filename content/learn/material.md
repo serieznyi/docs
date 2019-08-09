@@ -50,4 +50,6 @@
 ## Other
  - Building Microservices Designing Fine-Grained Systems By Sam Newman 
  - Domain-Driven Design: Tackling Complexity in the Heart of Software 1st Edition by Eric Evans 
+ - Clean Architecture: A Craftsman's Guide to Software Structure and Design (Robert C. Martin Series) 1st Edition
+by Robert C. Martin 
 
