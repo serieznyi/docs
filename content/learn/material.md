@@ -53,4 +53,5 @@
  - Clean Architecture: A Craftsman's Guide to Software Structure and Design (Robert C. Martin Series) 1st Edition
 by Robert C. Martin 
  - Эволюционная архитектура. Поддержка непрерывных изменений
+ -  Microservices Patterns With examples in Java
 
