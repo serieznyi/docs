@@ -55,5 +55,8 @@ by Robert C. Martin
  - Эволюционная архитектура. Поддержка непрерывных изменений
  -  Microservices Patterns With examples in Java
  - Совершенный алгоритм. Графовые алгоритмы и структуры данных
- - Java Concurrency in Practice
+ - Java Concurrency in Practice 1st Edition
+ - Concurrent Programming in Java: Design Principles and Pattern, 2nd Edition
+ - The Art of Multiprocessor Programming, Revised Reprint 1st Edition
+
 
