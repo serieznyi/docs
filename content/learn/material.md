@@ -55,4 +55,5 @@ by Robert C. Martin
  - Эволюционная архитектура. Поддержка непрерывных изменений
  -  Microservices Patterns With examples in Java
  - Совершенный алгоритм. Графовые алгоритмы и структуры данных
+ - Java Concurrency in Practice
 
