@@ -58,5 +58,6 @@ by Robert C. Martin
  - Java Concurrency in Practice 1st Edition
  - Concurrent Programming in Java: Design Principles and Pattern, 2nd Edition
  - The Art of Multiprocessor Programming, Revised Reprint 1st Edition
+ - Spring. Все паттерны проектирования
 
 
