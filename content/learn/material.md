@@ -1,19 +1,21 @@
 # Материалы для изучения
 
-## Java
-
  - **[DONE, ~02.2019]** Herbert Schildt - Java: A Beginner's Guide - https://isbnsearch.org/isbn/9781259589317
- - Herbert Schildt - Java: The Complete Reference - https://isbnsearch.org/isbn/9781260440232
- - Head First Design Patterns: A Brain-Friendly Guide - https://isbnsearch.org/isbn/9780596007126
- - Joshua Bloch - Effective Java https://isbnsearch.org/isbn/9780134685991
+ 
+ - **[IN PROGRESS, ]** Head First Design Patterns: A Brain-Friendly Guide - https://isbnsearch.org/isbn/9780596007126
+ - **[IN PROGRESS, ]** Robert C. Martin - Clean Code: A Handbook of Agile Software Craftsmanship - https://isbnsearch.org/isbn/9780132350884
+ - **[IN PROGRESS, ]** Joshua Bloch - Effective Java https://isbnsearch.org/isbn/9780134685991
+ - **[IN PROGRESS, ]** Hubert Klein Ikkink - Gradle Effective Implementations Guide https://isbnsearch.org/isbn/9781784394974
+
+ ## Java
+ - Herbert Schildt - Java: The Complete Reference - https://isbnsearch.org/isbn/9781260440232 
  - [Java Platform, Standard Edition Oracle JDK 9 Migration Guide](https://docs.oracle.com/javase/9/migrate/toc.htm)
  - [Java Platform, Standard Edition Oracle JDK 10 Migration Guide](https://docs.oracle.com/javase/10/migrate/toc.htm)
  - [Java Platform, Standard Edition Oracle JDK 11 Migration Guide](https://docs.oracle.com/en/java/javase/11/migrate/index.html)
  - [Java Platform, Standard Edition Oracle JDK 12 Migration Guide](https://docs.oracle.com/en/java/javase/12/migrate/index.html)
  - Object Thinking (Developer Reference) - David West
- - Clean Code: A Handbook of Agile Software Craftsmanship -  Robert C. Martin
  - Code Complete: A Practical Handbook of Software Construction - 	Steve McConnell 
- 
+ - Robert C. Martin - Clean Architecture: A Craftsman's Guide to Software Structure and Design (Robert C. Martin Series) - https://isbnsearch.org/isbn/9780134494166 
  - JPA 2.1 Specification https://download.oracle.com/otn-pub/jcp/persistence-2_1-fr-eval-spec/JavaPersistence.pdf
  - Java SE 8 Specification - https://docs.oracle.com/javase/specs/jls/se8/jls8.pdf
  - Servlet Specification https://download.oracle.com/otn-pub/jcp/servlet-4-final-eval-spec/servlet-4_0_FINAL.pdf
@@ -50,8 +52,7 @@
 ## Other
  - Building Microservices Designing Fine-Grained Systems By Sam Newman 
  - Domain-Driven Design: Tackling Complexity in the Heart of Software 1st Edition by Eric Evans 
- - Clean Architecture: A Craftsman's Guide to Software Structure and Design (Robert C. Martin Series) 1st Edition
-by Robert C. Martin 
+
  - Эволюционная архитектура. Поддержка непрерывных изменений
  -  Microservices Patterns With examples in Java
  - Совершенный алгоритм. Графовые алгоритмы и структуры данных
