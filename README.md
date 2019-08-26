@@ -7,6 +7,8 @@
 * [Принципы программирования](content/principes.md)
 * [Изучить](content/learn/material.md)
 * [Глосcарий](content/glossary.md)
+* Шпаргалка
+    - [Java](./content/crib/java/readme.md)
 * Linux
     - [Пробрасываем хостовые директории в Live CD](content/linux/mount_linux_live_cd.md)
     - [Очистка /boot](content/linux/clear_boot.md)
