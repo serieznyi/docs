@@ -1,5 +1,8 @@
 # Java 
 
+### Приведение типов
+![Alt text](img/types_cast.png "Приведение типов")
+
 ### Иерархия исключений
 ![Alt text](img/exception_hierarchy.png "Иерархия исключений")
 
