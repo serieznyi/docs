@@ -8,8 +8,9 @@
 * [Изучить](content/learn/material.md)
 * [Глосcарий](content/glossary.md)
 * Конспекты
-    * [Head First Design Patterns: A Brain-Friendly Guide](content/synopsis/head_first_degign_patterns/readme.md)
-    * [Java 8 The Complete Reference: 9 Edition](content/synopsis/java_the_complete_reference_9_edition/readme.md)
+    * [Head First Design Patterns: A Brain-Friendly Guide](content/synopsis/head_first_degign_patterns/readme.md) **IN PROGRESS**
+    * [Java 8 The Complete Reference: 9 Edition](content/synopsis/java_the_complete_reference_9_edition/readme.md) **IN PROGRESS**
+    * [Clean Code: A Handbook of Agile Software Craftsmanship](content/synopsis/clean_code/readme.md)  **IN PROGRESS**
 * Linux
     - [Пробрасываем хостовые директории в Live CD](content/linux/mount_linux_live_cd.md)
     - [Очистка /boot](content/linux/clear_boot.md)
