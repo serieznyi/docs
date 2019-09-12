@@ -6,6 +6,7 @@
  - **[IN PROGRESS, ]** Head First Design Patterns: A Brain-Friendly Guide - https://isbnsearch.org/isbn/9780596007126
  - **[IN PROGRESS, ]** Joshua Bloch - Effective Java https://isbnsearch.org/isbn/9780134685991
  - **[IN PROGRESS, ]** Hubert Klein Ikkink - Gradle Effective Implementations Guide https://isbnsearch.org/isbn/9781784394974
+ - **[IN PROGRESS, ]** Бхаргава Адитья  - Грокаем алгоритмы. Иллюстрированное пособие для программистов и любопытствующих - https://isbnsearch.org/isbn/9785446109234
 
  ## Java
  - Herbert Schildt - Java: The Complete Reference - https://isbnsearch.org/isbn/9781260440232 
