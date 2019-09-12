@@ -1,9 +1,9 @@
 # Материалы для изучения
 
  - **[DONE, ~02.2019]** Herbert Schildt - Java: A Beginner's Guide - https://isbnsearch.org/isbn/9781259589317
- 
+  - **[DONE, ~02.01.2019]** Robert C. Martin - Clean Code: A Handbook of Agile Software Craftsmanship - https://isbnsearch.org/isbn/9780132350884
+
  - **[IN PROGRESS, ]** Head First Design Patterns: A Brain-Friendly Guide - https://isbnsearch.org/isbn/9780596007126
- - **[IN PROGRESS, ]** Robert C. Martin - Clean Code: A Handbook of Agile Software Craftsmanship - https://isbnsearch.org/isbn/9780132350884
  - **[IN PROGRESS, ]** Joshua Bloch - Effective Java https://isbnsearch.org/isbn/9780134685991
  - **[IN PROGRESS, ]** Hubert Klein Ikkink - Gradle Effective Implementations Guide https://isbnsearch.org/isbn/9781784394974
 
