@@ -46,7 +46,7 @@
  - Авторы: Jerry Peek, Shelley Powers, Tim O'Reilly, Mike Loukides Название: «Unix Power Tools»
 
 ## Other
-  - **[DONE, ~02.01.2019]** Robert C. Martin - Clean Code: A Handbook of Agile Software Craftsmanship - https://isbnsearch.org/isbn/9780132350884
+  - **[DONE, ~02.09.2019]** Robert C. Martin - Clean Code: A Handbook of Agile Software Craftsmanship - https://isbnsearch.org/isbn/9780132350884
  -----
  - **[IN PROGRESS, ]** Head First Design Patterns: A Brain-Friendly Guide - https://isbnsearch.org/isbn/9780596007126
  - **[IN PROGRESS, ]** Hubert Klein Ikkink - Gradle Effective Implementations Guide https://isbnsearch.org/isbn/9781784394974
