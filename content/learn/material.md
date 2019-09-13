@@ -1,14 +1,9 @@
 # Материалы для изучения
-
- - **[DONE, ~02.2019]** Herbert Schildt - Java: A Beginner's Guide - https://isbnsearch.org/isbn/9781259589317
-  - **[DONE, ~02.01.2019]** Robert C. Martin - Clean Code: A Handbook of Agile Software Craftsmanship - https://isbnsearch.org/isbn/9780132350884
-
- - **[IN PROGRESS, ]** Head First Design Patterns: A Brain-Friendly Guide - https://isbnsearch.org/isbn/9780596007126
- - **[IN PROGRESS, ]** Joshua Bloch - Effective Java https://isbnsearch.org/isbn/9780134685991
- - **[IN PROGRESS, ]** Hubert Klein Ikkink - Gradle Effective Implementations Guide https://isbnsearch.org/isbn/9781784394974
- - **[IN PROGRESS, ]** Бхаргава Адитья  - Грокаем алгоритмы. Иллюстрированное пособие для программистов и любопытствующих - https://isbnsearch.org/isbn/9785446109234
-
  ## Java
+ - **[DONE, ~02.2019]** Herbert Schildt - Java: A Beginner's Guide - https://isbnsearch.org/isbn/9781259589317
+-----
+ - **[IN PROGRESS, ]** Joshua Bloch - Effective Java https://isbnsearch.org/isbn/9780134685991
+-----
  - Herbert Schildt - Java: The Complete Reference - https://isbnsearch.org/isbn/9781260440232 
  - [Java Platform, Standard Edition Oracle JDK 9 Migration Guide](https://docs.oracle.com/javase/9/migrate/toc.htm)
  - [Java Platform, Standard Edition Oracle JDK 10 Migration Guide](https://docs.oracle.com/javase/10/migrate/toc.htm)
@@ -51,6 +46,12 @@
  - Авторы: Jerry Peek, Shelley Powers, Tim O'Reilly, Mike Loukides Название: «Unix Power Tools»
 
 ## Other
+  - **[DONE, ~02.01.2019]** Robert C. Martin - Clean Code: A Handbook of Agile Software Craftsmanship - https://isbnsearch.org/isbn/9780132350884
+ -----
+ - **[IN PROGRESS, ]** Head First Design Patterns: A Brain-Friendly Guide - https://isbnsearch.org/isbn/9780596007126
+ - **[IN PROGRESS, ]** Hubert Klein Ikkink - Gradle Effective Implementations Guide https://isbnsearch.org/isbn/9781784394974
+ - **[IN PROGRESS, ]** Бхаргава Адитья  - Грокаем алгоритмы. Иллюстрированное пособие для программистов и любопытствующих - https://isbnsearch.org/isbn/9785446109234
+-----
  - Building Microservices Designing Fine-Grained Systems By Sam Newman 
  - Domain-Driven Design: Tackling Complexity in the Heart of Software 1st Edition by Eric Evans 
 
