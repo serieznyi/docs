@@ -63,5 +63,6 @@
  - The Art of Multiprocessor Programming, Revised Reprint 1st Edition
  - Spring. Все паттерны проектирования
  - Совершенный код. Мастер-класс
+ - Refactoring-Improving-Existing-Addison-Wesley-Signature - https://www.amazon.com/Refactoring-Improving-Existing-Addison-Wesley-Signature/dp/0134757599
 
 
