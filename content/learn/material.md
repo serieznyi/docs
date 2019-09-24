@@ -54,7 +54,7 @@
 -----
  - Building Microservices Designing Fine-Grained Systems By Sam Newman 
  - Domain-Driven Design: Tackling Complexity in the Heart of Software 1st Edition by Eric Evans 
-
+ - Implementing Domain-Driven Design - https://www.amazon.com/gp/product/0321834577/ref=as_li_ss_tl?ie=UTF8&camp=1789&creative=390957&creativeASIN=0321834577&linkCode=as2&tag=ploeh-20
  - Эволюционная архитектура. Поддержка непрерывных изменений
  -  Microservices Patterns With examples in Java
  - Совершенный алгоритм. Графовые алгоритмы и структуры данных
