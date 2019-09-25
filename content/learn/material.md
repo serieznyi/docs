@@ -65,5 +65,6 @@
  - Совершенный код. Мастер-класс
  - Refactoring-Improving-Existing-Addison-Wesley-Signature - https://www.amazon.com/Refactoring-Improving-Existing-Addison-Wesley-Signature/dp/0134757599
  - Dependency Injection in .NET - https://www.amazon.com/gp/product/1935182501/ref=as_li_ss_tl?ie=UTF8&camp=1789&creative=390957&creativeASIN=1935182501&linkCode=as2&tag=ploeh-20
+ - «Алгоритмы — Построение и Анализ» (Кормен, Лейзерсон, Ривест, Штайн)
 
 
