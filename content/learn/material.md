@@ -47,10 +47,10 @@
 
 ## Other
   - **[DONE, ~02.09.2019]** Robert C. Martin - Clean Code: A Handbook of Agile Software Craftsmanship - https://isbnsearch.org/isbn/9780132350884
+   - **[DONE, 26.09.2019]** Бхаргава Адитья  - Грокаем алгоритмы. Иллюстрированное пособие для программистов и любопытствующих - https://isbnsearch.org/isbn/9785446109234
  -----
  - **[IN PROGRESS, ]** Head First Design Patterns: A Brain-Friendly Guide - https://isbnsearch.org/isbn/9780596007126
  - **[IN PROGRESS, ]** Hubert Klein Ikkink - Gradle Effective Implementations Guide https://isbnsearch.org/isbn/9781784394974
- - **[IN PROGRESS, ]** Бхаргава Адитья  - Грокаем алгоритмы. Иллюстрированное пособие для программистов и любопытствующих - https://isbnsearch.org/isbn/9785446109234
 -----
  - Building Microservices Designing Fine-Grained Systems By Sam Newman 
  - Domain-Driven Design: Tackling Complexity in the Heart of Software 1st Edition by Eric Evans 
