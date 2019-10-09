@@ -30,8 +30,6 @@
     - [Отдаем файлы эффективно с помощью PHP](content/php/big_file_download.md)
     - [Настройка XDebug в docker](content/php/xdebug/in-docker.md)
     - [Реализация hashCode с хорошим распределением](content/php/hash_code.md)
-* Java
-    - [Подсказки по функциональным интерфейсам](content/java/tip_function.md)
 * Web-development
     - Javascript
         * [Выключаем hover при прокрутке](content/css/off_hover.md)
