@@ -36,6 +36,7 @@
  - Data JDBC - https://docs.spring.io/spring-data/jdbc/docs/1.0.8.RELEASE/reference/html/
  - Spock - http://spockframework.org/spock/docs/1.3/index.html
  - PowerMochito - http://powermock.github.io/#documents
+ - Java для всех
 
 ## Linux
  - Автор: Майкл Лукас Название: «FreeBSD. Подробное руководство» 
