@@ -1,8 +1,8 @@
 # Материалы для изучения
  ## Java
  - **[DONE, ~02.2019]** Herbert Schildt - Java: A Beginner's Guide - https://isbnsearch.org/isbn/9781259589317
------
- - **[IN PROGRESS, ]** Joshua Bloch - Effective Java https://isbnsearch.org/isbn/9780134685991
+ - **[DONE, 01.11.2019]** Joshua Bloch - Effective Java https://isbnsearch.org/isbn/9780134685991
+
 -----
  - Herbert Schildt - Java: The Complete Reference - https://isbnsearch.org/isbn/9781260440232 
  - [Java Platform, Standard Edition Oracle JDK 9 Migration Guide](https://docs.oracle.com/javase/9/migrate/toc.htm)
@@ -48,7 +48,7 @@
 
 ## Other
   - **[DONE, ~02.09.2019]** Robert C. Martin - Clean Code: A Handbook of Agile Software Craftsmanship - https://isbnsearch.org/isbn/9780132350884
-   - **[DONE, 26.09.2019]** Бхаргава Адитья  - Грокаем алгоритмы. Иллюстрированное пособие для программистов и любопытствующих - https://isbnsearch.org/isbn/9785446109234
+  - **[DONE, 26.09.2019]** Бхаргава Адитья  - Грокаем алгоритмы. Иллюстрированное пособие для программистов и любопытствующих - https://isbnsearch.org/isbn/9785446109234
  -----
  - **[IN PROGRESS, ]** Head First Design Patterns: A Brain-Friendly Guide - https://isbnsearch.org/isbn/9780596007126
  - **[IN PROGRESS, ]** Hubert Klein Ikkink - Gradle Effective Implementations Guide https://isbnsearch.org/isbn/9781784394974
