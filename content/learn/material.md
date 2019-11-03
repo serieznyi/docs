@@ -1,9 +1,13 @@
 # Материалы для изучения
- ## Java
+
+
+
+## Java
  - **[DONE, ~02.2019]** Herbert Schildt - Java: A Beginner's Guide - https://isbnsearch.org/isbn/9781259589317
  - **[DONE, 01.11.2019]** Joshua Bloch - Effective Java https://isbnsearch.org/isbn/9780134685991
 
 -----
+ - Роберт Лафоре - Структуры данных и алгоритмы JAVA, 2-е изд (Классика Computer Science)
  - Herbert Schildt - Java: The Complete Reference - https://isbnsearch.org/isbn/9781260440232 
  - [Java Platform, Standard Edition Oracle JDK 9 Migration Guide](https://docs.oracle.com/javase/9/migrate/toc.htm)
  - [Java Platform, Standard Edition Oracle JDK 10 Migration Guide](https://docs.oracle.com/javase/10/migrate/toc.htm)
