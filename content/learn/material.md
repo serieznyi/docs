@@ -1,11 +1,16 @@
 # Материалы для изучения
 
+## Прочел
 
+| #   | Автор            | Название                                     | Метки            | Дата завершения | ISBN            |
+| ---:|----------------- |:--------------------------------------------:| ----------------:|----------------:|----------------:|
+| 1   | Herbert Schildt  | Java: A Beginner's Guide                     | Java             | ~02.2019        | 9781259589317   | 
+| 2   | Joshua Bloch     | Effective Java                               | Java             | 01.11.2019      | 9780134685991   | 
+| 3   | Robert C. Martin | Clean Code                                   | Качество кода    | 02.09.2019      | 9780132350884   | 
+| 4   | Бхаргава Адитья  | Грокаем алгоритмы                            | Алгоритмы        | 26.09.2019      | 9785446109234   |
 
-## Java
- - **[DONE, ~02.2019]** Herbert Schildt - Java: A Beginner's Guide - https://isbnsearch.org/isbn/9781259589317
- - **[DONE, 01.11.2019]** Joshua Bloch - Effective Java https://isbnsearch.org/isbn/9780134685991
-
+## Изучить
+### Java
 -----
  - Роберт Лафоре - Структуры данных и алгоритмы JAVA, 2-е изд (Классика Computer Science)
  - Herbert Schildt - Java: The Complete Reference - https://isbnsearch.org/isbn/9781260440232 
@@ -42,7 +47,7 @@
  - PowerMochito - http://powermock.github.io/#documents
  - Java для всех
 
-## Linux
+### Linux
  - Автор: Майкл Лукас Название: «FreeBSD. Подробное руководство» 
  - Авторы: Эви Немет, Гарт Снайдер, Трент Р. Хейн, Бэн Уэйли
 Название: «Unix и Linux. Руководство системного администратора»
@@ -50,9 +55,7 @@
  - Авторы: Брайан У. Керниган, Роб Пайк Название: «Unix. Программное окружение»
  - Авторы: Jerry Peek, Shelley Powers, Tim O'Reilly, Mike Loukides Название: «Unix Power Tools»
 
-## Other
-  - **[DONE, ~02.09.2019]** Robert C. Martin - Clean Code: A Handbook of Agile Software Craftsmanship - https://isbnsearch.org/isbn/9780132350884
-  - **[DONE, 26.09.2019]** Бхаргава Адитья  - Грокаем алгоритмы. Иллюстрированное пособие для программистов и любопытствующих - https://isbnsearch.org/isbn/9785446109234
+### Other
  -----
  - **[IN PROGRESS, ]** Head First Design Patterns: A Brain-Friendly Guide - https://isbnsearch.org/isbn/9780596007126
  - **[IN PROGRESS, ]** Hubert Klein Ikkink - Gradle Effective Implementations Guide https://isbnsearch.org/isbn/9781784394974
