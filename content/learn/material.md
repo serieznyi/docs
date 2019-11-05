@@ -10,6 +10,10 @@
 | 4   | Joshua Bloch     | Effective Java                               | Java             | 01.11.2019      | 9780134685991   | 
 | 5   | Forta Ben        | Освой самостоятельно SQL за 10 минут         | SQL              | 05.11.2019      | 9785845918581   | 
 
+В процессе
+ - Head First Design Patterns: A Brain-Friendly Guide - https://isbnsearch.org/isbn/9780596007126
+ - Hubert Klein Ikkink - Gradle Effective Implementations Guide https://isbnsearch.org/isbn/9781784394974
+
 ## Изучить
 ### Java
 -----
@@ -57,10 +61,6 @@
  - Авторы: Jerry Peek, Shelley Powers, Tim O'Reilly, Mike Loukides Название: «Unix Power Tools»
 
 ### Other
- -----
- - **[IN PROGRESS, ]** Head First Design Patterns: A Brain-Friendly Guide - https://isbnsearch.org/isbn/9780596007126
- - **[IN PROGRESS, ]** Hubert Klein Ikkink - Gradle Effective Implementations Guide https://isbnsearch.org/isbn/9781784394974
------
  - Building Microservices Designing Fine-Grained Systems By Sam Newman 
  - Domain-Driven Design: Tackling Complexity in the Heart of Software 1st Edition by Eric Evans 
  - Implementing Domain-Driven Design - https://www.amazon.com/gp/product/0321834577/ref=as_li_ss_tl?ie=UTF8&camp=1789&creative=390957&creativeASIN=0321834577&linkCode=as2&tag=ploeh-20
