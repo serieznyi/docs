@@ -14,19 +14,12 @@
  - Head First Design Patterns: A Brain-Friendly Guide - https://isbnsearch.org/isbn/9780596007126
  - Hubert Klein Ikkink - Gradle Effective Implementations Guide https://isbnsearch.org/isbn/9781784394974
 
-## Изучить
-### Java
------
- - Роберт Лафоре - Структуры данных и алгоритмы JAVA, 2-е изд (Классика Computer Science)
- - Herbert Schildt - Java: The Complete Reference - https://isbnsearch.org/isbn/9781260440232 
+## Статьи и спецификации
  - [Java Platform, Standard Edition Oracle JDK 9 Migration Guide](https://docs.oracle.com/javase/9/migrate/toc.htm)
  - [Java Platform, Standard Edition Oracle JDK 10 Migration Guide](https://docs.oracle.com/javase/10/migrate/toc.htm)
  - [Java Platform, Standard Edition Oracle JDK 11 Migration Guide](https://docs.oracle.com/en/java/javase/11/migrate/index.html)
  - [Java Platform, Standard Edition Oracle JDK 12 Migration Guide](https://docs.oracle.com/en/java/javase/12/migrate/index.html)
- - Object Thinking (Developer Reference) - David West
- - Code Complete: A Practical Handbook of Software Construction - 	Steve McConnell 
- - Robert C. Martin - Clean Architecture: A Craftsman's Guide to Software Structure and Design (Robert C. Martin Series) - https://isbnsearch.org/isbn/9780134494166 
- - JPA 2.1 Specification https://download.oracle.com/otn-pub/jcp/persistence-2_1-fr-eval-spec/JavaPersistence.pdf
+  - JPA 2.1 Specification https://download.oracle.com/otn-pub/jcp/persistence-2_1-fr-eval-spec/JavaPersistence.pdf
  - Java SE 8 Specification - https://docs.oracle.com/javase/specs/jls/se8/jls8.pdf
  - Servlet Specification https://download.oracle.com/otn-pub/jcp/servlet-4-final-eval-spec/servlet-4_0_FINAL.pdf
  - JDBC 4.3 Specification https://download.oracle.com/otn-pub/jcp/jdbc-4_3-mrel3-eval-spec/jdbc4.3-fr-spec.pdf
@@ -50,17 +43,20 @@
  - Data JDBC - https://docs.spring.io/spring-data/jdbc/docs/1.0.8.RELEASE/reference/html/
  - Spock - http://spockframework.org/spock/docs/1.3/index.html
  - PowerMochito - http://powermock.github.io/#documents
+ 
+### Книги
  - Java для всех
-
-### Linux
+ - Object Thinking (Developer Reference) - David West
+ - Code Complete: A Practical Handbook of Software Construction - 	Steve McConnell 
+ - Robert C. Martin - Clean Architecture: A Craftsman's Guide to Software Structure and Design (Robert C. Martin Series) - https://isbnsearch.org/isbn/9780134494166 
  - Автор: Майкл Лукас Название: «FreeBSD. Подробное руководство» 
  - Авторы: Эви Немет, Гарт Снайдер, Трент Р. Хейн, Бэн Уэйли
 Название: «Unix и Linux. Руководство системного администратора»
  - Автор: Michael W. Lucas Название: «Absolute OpenBSD»
  - Авторы: Брайан У. Керниган, Роб Пайк Название: «Unix. Программное окружение»
  - Авторы: Jerry Peek, Shelley Powers, Tim O'Reilly, Mike Loukides Название: «Unix Power Tools»
-
-### Other
+ - Роберт Лафоре - Структуры данных и алгоритмы JAVA, 2-е изд (Классика Computer Science)
+ - Herbert Schildt - Java: The Complete Reference - https://isbnsearch.org/isbn/9781260440232 
  - Building Microservices Designing Fine-Grained Systems By Sam Newman 
  - Domain-Driven Design: Tackling Complexity in the Heart of Software 1st Edition by Eric Evans 
  - Implementing Domain-Driven Design - https://www.amazon.com/gp/product/0321834577/ref=as_li_ss_tl?ie=UTF8&camp=1789&creative=390957&creativeASIN=0321834577&linkCode=as2&tag=ploeh-20
