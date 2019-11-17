@@ -24,8 +24,6 @@
     - [Глобальный .gitignore](content/git/global_gitignore.md)
 * Ansile 
     - [Показывать diff зашифрованных файлов в git](content/ansible/vault_git_diff.md)
-* Резервные копии
-    - [Советы](content/backups/main.md)
 * PHP
     - [Отдаем файлы эффективно с помощью PHP](content/php/big_file_download.md)
     - [Настройка XDebug в docker](content/php/xdebug/in-docker.md)
