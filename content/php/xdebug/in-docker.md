@@ -1,4 +1,4 @@
-#Использование Xdebug в IDE PHPStorm
+# Использование Xdebug в IDE PHPStorm
 
 1. Запускаем приложение в Develop окружении
 
