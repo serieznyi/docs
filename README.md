@@ -17,7 +17,7 @@
     - [Автоматическое добавление SSH ключей](content/linux/ssh_on_login.md)
     - [Сброс кеша DNS (Ubuntu)](content/linux/dns_cache_drop.md)
     - [Утилиты](content/linux/utils.md)
-    - [Ubuntu: Restart sound services](content/linux/ubuntu_restart_sound_services.md)
+    - [Restart sound services](content/linux/restart_sound_services.md)
 * Git
     - [Несколько ssh deploy ключей на одной машине](./content/git/multiple-deploy-keys-multiple-private-repos-github-ssh-config.md) 
     - [Отправка изменений в несколько remote](content/git/push_in_few_remote.md)
