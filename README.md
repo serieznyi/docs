@@ -10,4 +10,4 @@
 $ docker run -it --rm -v $PWD:/docs sphinxdoc/sphinx make html
 ```
 
-- Удаленная сборка описана в .github/workflows
+- Удаленная сборка описана в `.github/workflows`
