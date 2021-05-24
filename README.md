@@ -1,7 +1,13 @@
 # База знаний
 
-## Локальная сборка с использованием Docker
+Содержит личную базу знаний
 
+# Сборка
+
+- Локальная сборка осуществляется с помощью Docker
+
+```shell
+$ docker run -it --rm -v $PWD:/docs sphinxdoc/sphinx make html
 ```
-docker run -it --rm -v $PWD:/docs sphinxdoc/sphinx make html
-```
+
+- Удаленная сборка описана в .github/workflows
