@@ -1,0 +1,194 @@
+
+<!DOCTYPE html>
+
+<html lang="ru">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="generator" content="Docutils 0.17.1: http://docutils.sourceforge.net/" />
+
+    <title>How to configure multiple deploy keys for different private github repositories on the same computer without using ssh-agent &#8212; документация knowledge-base </title>
+    <link rel="stylesheet" type="text/css" href="../../_static/pygments.css" />
+    <link rel="stylesheet" type="text/css" href="../../_static/alabaster.css" />
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.7.2/styles/default.min.css" />
+    <script data-url_root="../../" id="documentation_options" src="../../_static/documentation_options.js"></script>
+    <script src="../../_static/jquery.js"></script>
+    <script src="../../_static/underscore.js"></script>
+    <script src="../../_static/doctools.js"></script>
+    <script src="../../_static/translations.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.7.2/highlight.min.js"></script>
+    <script src="../../_static/js/index.js"></script>
+    <link rel="index" title="Алфавитный указатель" href="../../genindex.html" />
+    <link rel="search" title="Поиск" href="../../search.html" />
+    <link rel="next" title="Не фиксируем изменения прав доступа" href="permissions.html" />
+    <link rel="prev" title="Глобальные настройки" href="global_gitignore.html" />
+   
+  <link rel="stylesheet" href="../../_static/custom.css" type="text/css" />
+  
+  
+  <meta name="viewport" content="width=device-width, initial-scale=0.9, maximum-scale=0.9" />
+
+  </head><body>
+  
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          
+
+          <div class="body" role="main">
+            
+  <section id="how-to-configure-multiple-deploy-keys-for-different-private-github-repositories-on-the-same-computer-without-using-ssh-agent">
+<span id="multiple-deploy-keys-in-ssh"></span><h1>How to configure multiple deploy keys for different private github repositories on the same computer without using ssh-agent<a class="headerlink" href="#how-to-configure-multiple-deploy-keys-for-different-private-github-repositories-on-the-same-computer-without-using-ssh-agent" title="Ссылка на этот заголовок">¶</a></h1>
+<p><a class="reference external" href="https://gist.github.com/gubatron/d96594d982c5043be6d4">Взято отсюда</a></p>
+<p>Let’s say <cite>alice</cite> is a github.com user, with 2 or more private repositories <cite>repoN</cite>.
+For this example we’ll work with just two repositories named <cite>repo1</cite> and <cite>repo2</cite></p>
+<p><cite>https://github.com/alice/repo1</cite></p>
+<p><cite>https://github.com/alice/repo2</cite></p>
+<p>You need to be to pull from these repositories without entering a passwords probably on a server, or on multiple servers.
+You want to perform <cite>git pull origin master</cite> for example, and you want this to happen without asking for a password.</p>
+<p>You don’t like dealing with ssh-agent, you have discovered (or you’re discovering now) about <cite>~/.ssh/config</cite> a file that let’s your ssh client know what private key to use depending on Hostname and username, with a simple configuration entry that looks like this:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">Host</span> <span class="n">github</span><span class="o">.</span><span class="n">com</span>
+  <span class="n">HostName</span> <span class="n">github</span><span class="o">.</span><span class="n">com</span>
+  <span class="n">User</span> <span class="n">git</span>
+  <span class="n">IdentityFile</span> <span class="o">/</span><span class="n">home</span><span class="o">/</span><span class="n">alice</span><span class="o">/.</span><span class="n">ssh</span><span class="o">/</span><span class="n">alice_github</span><span class="o">.</span><span class="n">id_rsa</span>
+  <span class="n">IdentitiesOnly</span> <span class="n">yes</span>
+</pre></div>
+</div>
+<p>So you went ahead and created your <cite>(alice_github.id_rsa, alice_github.id_rsa.pub)</cite> keypair, you then also went to your repository’s <cite>.git/config</cite> file and you modified the url of your remote <cite>origin</cite> to be something like this:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="p">[</span><span class="n">remote</span> <span class="s2">&quot;origin&quot;</span><span class="p">]</span>
+        <span class="n">url</span> <span class="o">=</span> <span class="s2">&quot;ssh://git@github.com/alice/repo1.git&quot;</span>
+</pre></div>
+</div>
+<p>And finally you went to the repository <cite>Settings &gt; Deploy keys</cite> section and added the contents of <cite>alice_github.id_rsa.pub</cite></p>
+<p>At this point you could do your <cite>git pull origin master</cite> without entering a password without issue.</p>
+<section id="but-what-about-the-second-repository">
+<h2>but what about the second repository?<a class="headerlink" href="#but-what-about-the-second-repository" title="Ссылка на этот заголовок">¶</a></h2>
+<p>So your instinct will be to grab that key and add it to <cite>repo2</cite>’s Deploy keys, but github.com will error out and tell you that the key is already being used.</p>
+<p>Now you go and generate another key (using <cite>ssh-keygen -t rsa -C «alice&#64;alice.com»</cite> without passwords of course), and so that this doesn’t become a mess, you will now name your keys like this:</p>
+<blockquote>
+<div><ul class="simple">
+<li><p><cite>repo1</cite> keypair: <cite>(repo1.alice_github.id_rsa, repo1.alice_github.id_rsa.pub)</cite></p></li>
+<li><p><cite>repo2</cite> keypair: <cite>(repo2.alice_github.id_rsa, repo2.alice_github.id_rsa.pub)</cite></p></li>
+</ul>
+</div></blockquote>
+<p>You will now put the new public key on <cite>repo2</cite>’s Deploy keys configuration at github.com, but now you have an ssh problem to deal with.</p>
+</section>
+<section id="how-can-ssh-tell-which-key-to-use-if-the-repositories-are-hosted-on-the-same-github-com-domain">
+<h2>How can ssh tell which key to use if the repositories are hosted on the same <cite>github.com</cite> domain?<a class="headerlink" href="#how-can-ssh-tell-which-key-to-use-if-the-repositories-are-hosted-on-the-same-github-com-domain" title="Ссылка на этот заголовок">¶</a></h2>
+<p>Your <cite>.ssh/config</cite> file points to <cite>github.com</cite> and it doesn’t know which key to use when it’s time to do the pull.</p>
+<p>So I found a trick with github.com. You can tell your ssh client that each repository lives in a different github.com subdomain, in these cases, they will be <cite>repo1.github.com</cite> and <cite>repo2.github.com</cite></p>
+<p>So first thing is editing the <cite>.git/config</cite> files on your repo clones, so they look like this instead:</p>
+<p>For repo1</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="p">[</span><span class="n">remote</span> <span class="s2">&quot;origin&quot;</span><span class="p">]</span>
+        <span class="n">url</span> <span class="o">=</span> <span class="s2">&quot;ssh://git@repo1.github.com/alice/repo1.git&quot;</span>
+</pre></div>
+</div>
+<p>For repo2</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="p">[</span><span class="n">remote</span> <span class="s2">&quot;origin&quot;</span><span class="p">]</span>
+        <span class="n">url</span> <span class="o">=</span> <span class="s2">&quot;ssh://git@repo2.github.com/alice/repo2.git&quot;</span>
+</pre></div>
+</div>
+<p>And then, on your <cite>.ssh/config</cite> file, now you will be able to enter a configuration for each subdomain :)</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">Host</span> <span class="n">repo1</span><span class="o">.</span><span class="n">github</span><span class="o">.</span><span class="n">com</span>
+  <span class="n">HostName</span> <span class="n">github</span><span class="o">.</span><span class="n">com</span>
+  <span class="n">User</span> <span class="n">git</span>
+  <span class="n">IdentityFile</span> <span class="o">/</span><span class="n">home</span><span class="o">/</span><span class="n">alice</span><span class="o">/.</span><span class="n">ssh</span><span class="o">/</span><span class="n">repo1</span><span class="o">.</span><span class="n">alice_github</span><span class="o">.</span><span class="n">id_rsa</span>
+  <span class="n">IdentitiesOnly</span> <span class="n">yes</span>
+
+<span class="n">Host</span> <span class="n">repo2</span><span class="o">.</span><span class="n">github</span><span class="o">.</span><span class="n">com</span>
+  <span class="n">HostName</span> <span class="n">github</span><span class="o">.</span><span class="n">com</span>
+  <span class="n">User</span> <span class="n">git</span>
+  <span class="n">IdentityFile</span> <span class="o">/</span><span class="n">home</span><span class="o">/</span><span class="n">alice</span><span class="o">/.</span><span class="n">ssh</span><span class="o">/</span><span class="n">repo2</span><span class="o">.</span><span class="n">alice_github</span><span class="o">.</span><span class="n">id_rsa</span>
+  <span class="n">IdentitiesOnly</span> <span class="n">yes</span>
+</pre></div>
+</div>
+<p>Now you are able to <cite>git pull origin master</cite> without entering any passwords from both repositories.</p>
+<p>If you have multiple machines, you could copy the keys to each of the machines and reuse them, but I’d advise doing the leg work to generate 1 key per machine and repo. You will have a lot more keys to handle, but you will be less vulnerable if one gets compromised.</p>
+</section>
+</section>
+
+
+          </div>
+          
+        </div>
+      </div>
+      <div class="sphinxsidebar" role="navigation" aria-label="main navigation">
+        <div class="sphinxsidebarwrapper">
+<h1 class="logo"><a href="../../index.html">knowledge-base</a></h1>
+
+
+
+
+
+
+
+
+<h3>Навигация</h3>
+<p class="caption"><span class="caption-text">Оглавление:</span></p>
+<ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="../devops/index.html">DevOps</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../documentation/index.html">Документация</a></li>
+<li class="toctree-l1 current"><a class="reference internal" href="index.html">Git</a><ul class="current">
+<li class="toctree-l2"><a class="reference internal" href="global_gitignore.html">Глобальные настройки</a></li>
+<li class="toctree-l2 current"><a class="current reference internal" href="#">How to configure multiple deploy keys for different private github repositories on the same computer without using ssh-agent</a></li>
+<li class="toctree-l2"><a class="reference internal" href="permissions.html">Не фиксируем изменения прав доступа</a></li>
+<li class="toctree-l2"><a class="reference internal" href="push_in_few_remote.html">Отправка изменений в несколько remote</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../java/index.html">Java</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../learn/index.html">Материалы для изучения</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../linux/index.html">Linux</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../php/index.html">PHP</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../principes/index.html">Принципы</a></li>
+</ul>
+
+<div class="relations">
+<h3>Related Topics</h3>
+<ul>
+  <li><a href="../../index.html">Documentation overview</a><ul>
+  <li><a href="index.html">Git</a><ul>
+      <li>Previous: <a href="global_gitignore.html" title="предыдущая глава">Глобальные настройки</a></li>
+      <li>Next: <a href="permissions.html" title="следующая глава">Не фиксируем изменения прав доступа</a></li>
+  </ul></li>
+  </ul></li>
+</ul>
+</div>
+<div id="searchbox" style="display: none" role="search">
+  <h3 id="searchlabel">Быстрый поиск</h3>
+    <div class="searchformwrapper">
+    <form class="search" action="../../search.html" method="get">
+      <input type="text" name="q" aria-labelledby="searchlabel" />
+      <input type="submit" value="Искать" />
+    </form>
+    </div>
+</div>
+<script>$('#searchbox').show(0);</script>
+
+
+
+
+
+
+
+
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="footer">
+      &copy;2021, Maxim Mironyuk.
+      
+      |
+      Powered by <a href="http://sphinx-doc.org/">Sphinx 4.0.2</a>
+      &amp; <a href="https://github.com/bitprophet/alabaster">Alabaster 0.7.12</a>
+      
+      |
+      <a href="../../_sources/content/git/multiple_deploy_keys_in_ssh.rst.txt"
+          rel="nofollow">Page source</a>
+    </div>
+
+    
+
+    
+  </body>
+</html>

@@ -1,0 +1,185 @@
+
+<!DOCTYPE html>
+
+<html lang="ru">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="generator" content="Docutils 0.17.1: http://docutils.sourceforge.net/" />
+
+    <title>SOLID &#8212; документация knowledge-base </title>
+    <link rel="stylesheet" type="text/css" href="../../_static/pygments.css" />
+    <link rel="stylesheet" type="text/css" href="../../_static/alabaster.css" />
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.7.2/styles/default.min.css" />
+    <script data-url_root="../../" id="documentation_options" src="../../_static/documentation_options.js"></script>
+    <script src="../../_static/jquery.js"></script>
+    <script src="../../_static/underscore.js"></script>
+    <script src="../../_static/doctools.js"></script>
+    <script src="../../_static/translations.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.7.2/highlight.min.js"></script>
+    <script src="../../_static/js/index.js"></script>
+    <link rel="index" title="Алфавитный указатель" href="../../genindex.html" />
+    <link rel="search" title="Поиск" href="../../search.html" />
+    <link rel="prev" title="Принципы" href="index.html" />
+   
+  <link rel="stylesheet" href="../../_static/custom.css" type="text/css" />
+  
+  
+  <meta name="viewport" content="width=device-width, initial-scale=0.9, maximum-scale=0.9" />
+
+  </head><body>
+  
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          
+
+          <div class="body" role="main">
+            
+  <section id="solid">
+<h1>SOLID<a class="headerlink" href="#solid" title="Ссылка на этот заголовок">¶</a></h1>
+<p>Пять основных принципов объектно-ориентированного
+программирования и проектирования</p>
+<section id="id1">
+<h2>Описание<a class="headerlink" href="#id1" title="Ссылка на этот заголовок">¶</a></h2>
+<p><strong>The Single Responsibility Principle</strong> - Принцип единственной ответственности</p>
+<dl class="field-list simple">
+<dt class="field-odd">Описание</dt>
+<dd class="field-odd"><p>Программная сущность <a class="footnote-reference brackets" href="#id4" id="id2">1</a> должна иметь одну и только одну причину для изменения.</p>
+</dd>
+<dt class="field-even">Как добиться</dt>
+<dd class="field-even"><ul class="simple">
+<li><p>Множество мелких сущностей каждая из которых выполняет лишь одну обязанность</p></li>
+<li><p>В случае увеличения кол-ва обязанностей существующей сущности - вынести
+часть обязанностей в отдельную сущность</p></li>
+</ul>
+</dd>
+</dl>
+<hr class="docutils" />
+<ul>
+<li><p><a class="reference internal" href="solid/the_open_closed_principle.html#solid-open-close-principle"><span class="std std-ref">The Open Closed Principle - Принцип открытости/закрытости</span></a></p></li>
+<li><p>The Liskov Substitution Principe - Принцип подстановки Барбары Лисков</p>
+<blockquote>
+<div><p>Производные классы должны быть заменяемы для своих базовых классов</p>
+<ul class="simple">
+<li><p>Производные классы не должны ломать поведение заданное базовым классом</p></li>
+<li><p>Подкласс не должен предоставлять вызывающему коду больше, чем базовый класс, и не
+должен предоставлять вызывающему коду меньше, чем базовый класс</p></li>
+</ul>
+</div></blockquote>
+</li>
+<li><p>The Interface Segregation Principe - Принцип разделения интерфейса</p>
+<blockquote>
+<div><p>Много интерфейсов, специально предназначенных для клиентов, лучше, чем один интерфейс общего назначения</p>
+<ul class="simple">
+<li><p>Программные сущности не должны зависеть от методов, которые они не используют.</p></li>
+<li><p>Нельзя заставлять клиента реализовать интерфейс, которым он не пользуется.</p></li>
+</ul>
+</div></blockquote>
+</li>
+<li><p>The Dependency Inversion Principe - Инверсия зависимостей</p>
+<blockquote>
+<div><p>Допустима зависимость от абстракции, а не от конкретной реализации</p>
+<ul class="simple">
+<li><p>Зависьте от абстракций, а не от чего-то конкретного</p></li>
+</ul>
+</div></blockquote>
+</li>
+</ul>
+</section>
+<section id="id3">
+<h2>Источники<a class="headerlink" href="#id3" title="Ссылка на этот заголовок">¶</a></h2>
+<blockquote>
+<div><ul class="simple">
+<li><p>Мартин, Роберт (Дядя Боб). [Principles Of OOD](<a class="reference external" href="http://butunclebob.com/ArticleS.UncleBob.PrinciplesOfOod">http://butunclebob.com/ArticleS.UncleBob.PrinciplesOfOod</a>). butunclebob.com</p></li>
+</ul>
+</div></blockquote>
+<dl class="footnote brackets">
+<dt class="label" id="id4"><span class="brackets"><a class="fn-backref" href="#id2">1</a></span></dt>
+<dd><p>Программная сущность - метод, класс, модуль</p>
+</dd>
+</dl>
+</section>
+</section>
+
+
+          </div>
+          
+        </div>
+      </div>
+      <div class="sphinxsidebar" role="navigation" aria-label="main navigation">
+        <div class="sphinxsidebarwrapper">
+<h1 class="logo"><a href="../../index.html">knowledge-base</a></h1>
+
+
+
+
+
+
+
+
+<h3>Навигация</h3>
+<p class="caption"><span class="caption-text">Оглавление:</span></p>
+<ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="../devops/index.html">DevOps</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../documentation/index.html">Документация</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../git/index.html">Git</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../java/index.html">Java</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../learn/index.html">Материалы для изучения</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../linux/index.html">Linux</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../php/index.html">PHP</a></li>
+<li class="toctree-l1 current"><a class="reference internal" href="index.html">Принципы</a><ul class="current">
+<li class="toctree-l2 current"><a class="current reference internal" href="#">SOLID</a></li>
+</ul>
+</li>
+</ul>
+
+<div class="relations">
+<h3>Related Topics</h3>
+<ul>
+  <li><a href="../../index.html">Documentation overview</a><ul>
+  <li><a href="index.html">Принципы</a><ul>
+      <li>Previous: <a href="index.html" title="предыдущая глава">Принципы</a></li>
+  </ul></li>
+  </ul></li>
+</ul>
+</div>
+<div id="searchbox" style="display: none" role="search">
+  <h3 id="searchlabel">Быстрый поиск</h3>
+    <div class="searchformwrapper">
+    <form class="search" action="../../search.html" method="get">
+      <input type="text" name="q" aria-labelledby="searchlabel" />
+      <input type="submit" value="Искать" />
+    </form>
+    </div>
+</div>
+<script>$('#searchbox').show(0);</script>
+
+
+
+
+
+
+
+
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="footer">
+      &copy;2021, Maxim Mironyuk.
+      
+      |
+      Powered by <a href="http://sphinx-doc.org/">Sphinx 4.0.2</a>
+      &amp; <a href="https://github.com/bitprophet/alabaster">Alabaster 0.7.12</a>
+      
+      |
+      <a href="../../_sources/content/principes/solid.rst.txt"
+          rel="nofollow">Page source</a>
+    </div>
+
+    
+
+    
+  </body>
+</html>
